@@ -1,0 +1,25 @@
+# Python3 program to add two numbers 
+  
+num1 = 15
+num2 = 12
+  
+# Adding two nos 
+sum = num1 + num2 
+  
+# printing values 
+print("Sum of {0} and {1} is {2}" .format(num1, num2, sum)) 
+
+
+
+
+# Python 3 program to find  
+# factorial of given number 
+def factorial(n): 
+      
+    # single line to find factorial 
+    return 1 if (n==1 or n==0) else n * factorial(n - 1);  
+  
+# Driver Code 
+num = 5; 
+print("Factorial of",num,"is", 
+factorial(num)) 
